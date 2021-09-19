@@ -1,4 +1,4 @@
-<footer class="margin-top-50">
+<footer style="position: fixed!important;left: 0; bottom: 0; width: 100%;color: white;" class="margin-top-50">
     <div class="row">
         <div class="footer-artwork" id="footer-artwork">
             <img class="img-responsive" src="{{asset('frontend/echallan/assets/img/footer_top_bg.png')}}" alt="" title="">
