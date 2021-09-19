@@ -34,12 +34,15 @@
                 <div class="col-xs-12 clearfix">
                     <!-- Nav tabs -->
                     <ul class="nav nav-tabs" role="tablist">
-                        <li class="active"><a href="#" data-toggle="tab">Visitor Registration</a></li>
+                        <li class="active"><a href="#" data-toggle="tab">Complainer Form</a></li>
                     </ul>
                     <!-- Tab panes -->
                     <div class="tab-content">
                         <!-- USER REGISTRATION-->
                         <div role="tabpanel" class="tab-pane row fade in active">
+                            <!-- <div style="height:40px;margin-bottom:20px;" id="messageSection" class="alert alert-warning">
+                                <p style="text-align: center;">FromComplainer Info</p>
+                            </div> -->
                             <form method="post" action="{{route('store.complain')}}" class="form clearfix">
                                 @csrf
                                 <div class="form-group col-md-6">
@@ -76,6 +79,9 @@
                                         <span class="text-danger">{{ $errors->first('gender') }}</span>
                                     @endif
                                 </div>
+                                <!-- <div style="height:40px;margin-bottom:20px;" id="messageSection" class="alert alert-warning">
+                                  <p style="text-align: center;">Complainer Info</p>
+                                </div> -->
 
                                 <div class="form-group col-md-6">
                                     <label for="NAME">Employee Name :<span id="mark">&nbsp;* (Employee name)</span></label>

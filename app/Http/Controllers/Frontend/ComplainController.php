@@ -24,6 +24,7 @@ class ComplainController extends Controller
              $this->validate($request,[
             'name'=>'required',
             'email'=>'required',
+            'gender'=>'required',
             'mobile'=>'required|min:11|numeric',
             'designation_id'=>'required',
             'employee_id'=>'required',
