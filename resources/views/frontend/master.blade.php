@@ -152,8 +152,8 @@
         </script>
     </div>
     <!-- Footer Section -->
-    <!-- @include('frontend.partials._footer') -->
-    <!-- End Footer Section -->
+    <!-- @include('frontend.partials._footer')
+ -->    <!-- End Footer Section -->
 
     <!-- ScrollTop Starts-->
     <div class="scroll-top hide">

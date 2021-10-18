@@ -160,6 +160,7 @@
               </div><!-- /.container-fluid -->
             </section>
         </div><!--/.col-xs-12.col-sm-9-->
+        @include('frontend.partials._footer')
     </div> 
 </div>
 @endsection
