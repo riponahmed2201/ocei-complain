@@ -21,14 +21,14 @@
 <body class="hold-transition login-page">
 <div class="login-box">
   <div class="login-logo">
-    <a href="#"><b>Login</b>Form</a>
+    <img src="{{asset('images/logo.png')}}" style="width:240px;" alt="">
   </div>
   <!-- /.login-logo -->
   <div class="card">
     <div class="card-body login-card-body">
       <p class="login-box-msg">Sign in to start your session</p>
       @include('backend.partials._message')
-      <form action="{{route('visitor.login_check')}}" method="post">
+      <form action="{{route('complainer.login_check')}}" method="post">
       	@csrf
         <div class="input-group mb-3">
           <input type="text" name="user_name" class="form-control" value="{{old('user_name')}}" placeholder="name">

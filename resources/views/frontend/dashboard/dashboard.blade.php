@@ -1,4 +1,5 @@
 @extends('frontend.master')
+@section('title', 'Complainer Index')
 @section('stylesheet')
     
 @endsection

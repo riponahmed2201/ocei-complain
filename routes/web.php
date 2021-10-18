@@ -21,13 +21,13 @@ Route::get('/clear-cache', function() {
 // Route::get('/', function () {
 //     return view('welcome');
 // });
-Route::get('/visitor-login', 'Auth\AdminLoginController@showLoginForm')->name('visitor.login');
-Route::post('/visitor_login_check', 'Auth\AdminLoginController@visitor_login_check')->name('visitor.login_check');
-Route::post('/visitor_logout', 'Auth\AdminLoginController@logout')->name('visitor.logout');
+Route::get('/complainer-login', 'Auth\AdminLoginController@showLoginForm')->name('complainer.login');
+Route::post('/complainer_login_check', 'Auth\AdminLoginController@complainer_login_check')->name('complainer.login_check');
+Route::post('/complainer_logout', 'Auth\AdminLoginController@logout')->name('complainer.logout');
 
 Route::middleware('admin')->group(function(){
 	Route::get('/dashboard', 'Backend\HomeController@dashboard')->name('dashboard');
-	////*************all visitor************
+	////*************all complainer************
     Route::get('/all-complain','Backend\ComplainController@allComplain')->name('all-complain');
     //Complain Delete & Forword
     Route::post('/delete/all/complain','Backend\ComplainController@deleteAll');

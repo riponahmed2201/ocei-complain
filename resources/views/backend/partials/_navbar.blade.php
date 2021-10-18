@@ -18,11 +18,11 @@
         <span class="dropdown-item dropdown-header">{{session('user_name')}}</span>
         <div class="dropdown-divider"></div>
         <div class="dropdown-divider"></div>
-        <a href="#" onclick="document.getElementById('visitor.logout').submit()" class="dropdown-item">
+        <a href="#" onclick="document.getElementById('complainer.logout').submit()" class="dropdown-item">
           <i class="fas fa-sign-out-alt"></i> Logout
           <span class="float-right text-muted text-sm"></span>
         </a>
-        <form id="visitor.logout" action="{{route('visitor.logout')}}" method="post" style="display: none">
+        <form id="complainer.logout" action="{{route('complainer.logout')}}" method="post" style="display: none">
             @csrf
         </form>
         <div class="dropdown-divider"></div>

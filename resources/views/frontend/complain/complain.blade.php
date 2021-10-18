@@ -150,7 +150,7 @@
                    <div class="form-group">
                         <div style="margin-bottom:2px!important;" class="col-md-12">
                             <span>Are you already registered? Please</span>
-                            <a class="light-green" href="{{route('visitor.login')}}">
+                            <a class="light-green" href="{{route('complainer.login')}}">
                                login
                             </a>
                         </div>

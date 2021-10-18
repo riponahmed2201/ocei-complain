@@ -27,7 +27,7 @@ class AdminLoginController extends Controller
      *
      * @throws \Illuminate\Validation\ValidationException
      */
-    public function visitor_login_check(Request $request)
+    public function complainer_login_check(Request $request)
     {
 
         $request->validate([
@@ -49,11 +49,11 @@ class AdminLoginController extends Controller
                 }elseif ($auth->role_id == 9) {
                     return redirect('/dashboard');
                 }else{
-                    return redirect('/visitor-login');
+                    return redirect('/complainer-login');
                 }
 
             }else{
-                return redirect('/visitor-login')
+                return redirect('/complainer-login')
                 ->withInput($request->only('user_name'))
                 ->withErrors($this->errors);
             }

@@ -1,22 +1,12 @@
 <aside class="main-sidebar elevation-4 sidebar-light-teal">
   <!-- Brand Logo -->
   <a href="{{route('dashboard')}}" class="brand-link">
-    <img src="{{asset('images/AdminLTELogo.png')}}" alt="AdminLTE Logo" class="brand-image img-circle elevation-3"
-         style="opacity: .8">
-    <span class="brand-text font-weight-light" style="color:green;">|| {{session('user_name')}}</span>
+    <img src="{{asset('images/logo.png')}}" style="width:240px;" alt="">
   </a>
 
   <!-- Sidebar -->
   <div class="sidebar">
     <!-- Sidebar user panel (optional) -->
-    <div class="user-panel mt-3 pb-3 mb-3 d-flex">
-      <div class="image">
-        <img src="{{asset('images/user2-160x160.jpg')}}" class="img-circle elevation-2" alt="User Image">
-      </div>
-      <div class="info">
-        <a href="javascript:void(0)" class="d-block">{{session('user_name')}}</a>
-      </div>
-    </div>
 
     <!-- Sidebar Menu -->
     <nav class="mt-2">
