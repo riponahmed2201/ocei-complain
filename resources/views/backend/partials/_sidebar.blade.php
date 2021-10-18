@@ -18,7 +18,7 @@
         @else
           <?php $active=""; ?>
         @endif
-        <li class="nav-item has-treeview menu-open">
+        <li class="nav-item has-treeview">
           <a href="{{route('dashboard')}}" class="nav-link {{$active}}">
             <i class="nav-icon fas fa-tachometer-alt"></i>
             <p>
