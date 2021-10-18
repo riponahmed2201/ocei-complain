@@ -1,8 +1,8 @@
 @extends('backend.master')
 
 @section('title', 'Complainer Dashboard')
-@section('dashboard-title', 'Dashboard')
-@section('breadcrumb-title', 'Dashboard Information')
+@section('dashboard-title', 'Complainer Dashboard')
+@section('breadcrumb-title', 'Complainer Dashboard Information')
 
 @section('stylesheet')
     <!-- <link href="//cdn.datatables.net/1.10.19/css/jquery.dataTables.min.css" rel="stylesheet">
