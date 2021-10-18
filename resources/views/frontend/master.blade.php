@@ -152,7 +152,7 @@
         </script>
     </div>
     <!-- Footer Section -->
-    @include('frontend.partials._footer')
+    <!-- @include('frontend.partials._footer') -->
     <!-- End Footer Section -->
 
     <!-- ScrollTop Starts-->
